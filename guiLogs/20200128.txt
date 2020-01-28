@@ -1,0 +1,38 @@
+--------------------------------info[13:48:38]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[13:48:42]--------------------------------
+System.Exception: Webserver prefixes http://127.0.0.1:1082/pac/
+
+ 
+--------------------------------info[13:48:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------拒绝访问。[13:48:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:48:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
+--------------------------------info[13:48:42]--------------------------------
+System.Exception: Webserver prefixes http://192.168.108.1:1082/pac/
+
+ 
+--------------------------------拒绝访问。[13:48:42]--------------------------------
+System.Net.HttpListenerException (0x80004005): 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 v2rayN.HttpProxyHandler.HttpWebServer..ctor(String[] prefixes, Func`2 method)
+
+ 
+--------------------------------info[13:48:42]--------------------------------
+System.Exception: Webserver running...
+
+ 
